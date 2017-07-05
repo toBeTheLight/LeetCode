@@ -17,7 +17,7 @@ let reverse1 = function (x) {
     } else {
         return y
     }
-};
+}
 let reverseStr = function (str) {
     let temp = ''
     for(let len = str.length, i = len-1; i >= 0; i--) {

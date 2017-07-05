@@ -14,7 +14,7 @@ let twoSum1 = function (nums, target) {
             }
         }
     }
-};
+}
 // 2.数组存值 余数 = 索引
 let twoSum2 = function (nums, target) {
 	let arr = []
