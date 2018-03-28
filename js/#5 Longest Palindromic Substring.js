@@ -4,7 +4,8 @@
  * @param {string} s
  * @return {string}
  */
-var longestPalindrome = function(str) {
+// 1. 取中间项，向两侧遍历，aba和abba是两种情况，分开遍历
+let longestPalindrome = function(str) {
   {
     let resS = {}
     let resD = {}
